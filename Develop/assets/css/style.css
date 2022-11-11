@@ -1,0 +1,253 @@
+/* Universal Selector - applying box-sizing, padding, and margin to all elements*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Body selector applies background color to the entire body*/
+body {
+    background-color: #d9dcd6;
+}
+/*Changed header to an element from a class*/
+/* Header selector applies style changes to the header element*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*Changed header to an element from a class*/
+/* applies style changes to the h1 element within the header element*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*Changed header to an element from a class*/
+/* changes font color to any seo class that is within an h1 element within a header element*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+/*Changed header to an element from a class*/
+/* applies style changes to any div element within a header element*/
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*Changed header to an element from a class*/
+/* updates the list-style-type to none for any unordered list within a div element that is within a class element*/
+header div ul {
+    list-style-type: none;
+}
+/*Changed header to an element from a class*/
+/* displays list items inline with a left margin of 25px*/
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* sets text-decoration to none and changes font color for any anchor element*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* sets font-size of every paragraph element to 16px*/
+p {
+    font-size: 16px;
+}
+/*sets style for all insteances of the hero class*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*sets style for the float-left class*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*sets style for the float-right class*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*sets style for the content element*/
+/*changed content to an element selector from a class selector*/
+content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*sets style for the benefits class*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* added new marketing class to remove duplicate code*/
+/* sets style for the marketing class*/
+.marketing {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* removed to delete duplicate code
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+*/
+/* updated with new marketing class*/
+/* sets style for the h3 element within the marekting element*/
+.marketing h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* remove to delete duplicate code
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+/* sets style for an image in the marketing class*/
+.marketing img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* removed to delete duplicate code
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+
+/* sets style for the online class*/
+.online {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* removed to delete duplicate code.  Under the new "online" class
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+/* sets style for images within the online class*/
+.online img {
+    max-height: 200px;
+}
+/* removed to delete duplicate code.  It is under the new class
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+/* sets style for the h2 element within the online class*/
+.online h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* removed to delete duplicate code
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+/* changed footer from a class to an element*/
+/* sets style within the footer element*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* sets style within the h2 element that's in the footer element*/
+footer h2 {
+    font-size: 20px;
+}
